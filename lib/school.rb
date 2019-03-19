@@ -15,7 +15,7 @@ attr_accessor :name, :roster
   end
   
   def sort
-    
+    roster.sort
   end 
 
 end 
