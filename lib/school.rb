@@ -6,13 +6,14 @@ class School
     @name = name
   end
     
- ROSTER = []
+ ROSTER = [] # creates roster 
  
- def roster=(roster)
-   @roster = roster
-   ROSTER << ROSTER["grade_level"] << "new_student"
+  def roster=(roster)
+    @roster = roster
+    ROSTER << ROSTER["grade_level"] << "new_student"
+    puts 
   
-  def add_student(grade, name)
+  def add_student(name, grade)
   #adds new student's name to correct grade level roster
   end
     
