@@ -17,8 +17,9 @@ attr_accessor :name, :roster
   
   def sort
     sorted = {}
-    roster.each do |grade, student_name|
-      sorted [grade] student_name.sort
-    puts "#{grade}, #{student_name}"
+    roster.each do |grade, student_names|
+    sorted[grade]  = student_names.sort
+  end
+  sorted
   end 
 end 
