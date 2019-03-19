@@ -6,7 +6,7 @@ attr_accessor :name, :roster
     @roster = []
   end
   
-  def add_student
+  def add_student(grade, name)
   
   end
   
