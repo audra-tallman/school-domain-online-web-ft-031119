@@ -15,7 +15,7 @@ attr_accessor :name, :roster
   end
   
   def sort
-    roster.sort{|a,b| a[1]<=>b[1]}.each { |elem|
+    roster.sort{|a,b| a[1]<=>b[1]}.each { |elem|}
     puts "#{elem[1]}, #{elem[0]}"
   end 
 end 
