@@ -1,7 +1,11 @@
 class School
-  attr_reader :roster
+  def initialize
+    
   
-  ROSTER = []
+  roster["grade_level"] = []
+  roster["grade_level"] << "new_student"
+  
+
   
   
 end 
