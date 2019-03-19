@@ -15,16 +15,15 @@ class School
   end
   
   def add_student(name, grade)
-  #adds new student's name to correct grade level roster
+  ROSTER
   end
     
   def grade(grade)
-  #returns students in specific grade level
   puts name
   end  
   
   def sort 
-  puts roster.sort 
+  puts ROSTER.sort 
   end
   
 end 
