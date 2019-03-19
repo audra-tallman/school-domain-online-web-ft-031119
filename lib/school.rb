@@ -1,6 +1,5 @@
 class School
-attr_accessor :roster
-attr_reader :new
+attr_accessor :roster :name
 
   def initialize(new)
     @new = new
