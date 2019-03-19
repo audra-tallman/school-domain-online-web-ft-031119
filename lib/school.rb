@@ -10,7 +10,7 @@ class School
  
   def roster=(roster)
     @roster = roster
-    ROSTER << ROSTER["grade"] << "new_student"
+    ROSTER << ROSTER["grade"] << "name"
     puts puts "#{name}: #{grade}"
   
   def add_student(name, grade)
