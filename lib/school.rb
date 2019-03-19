@@ -15,13 +15,9 @@ attr_accessor :name, :roster
   end
   
   def sort
-    
-    
-    roster.keys.sort_by { |key| my_hash[key] }.each do
-|key|
-    puts my_hash[key]
-end
-    roster.sort
+    roster.values.sort_by { |value| my_hash[value] }.each do
+|value|
+    puts roster[value]
   end 
 
 end 
