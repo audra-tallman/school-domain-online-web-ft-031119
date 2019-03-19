@@ -11,7 +11,8 @@ class School
   def roster=(roster)
     @roster = roster
     ROSTER << ROSTER["grade"] << "name"
-    puts puts "#{name}: #{grade}"
+    puts "#{name}: #{grade}"
+  end
   
   def add_student(name, grade)
   #adds new student's name to correct grade level roster
