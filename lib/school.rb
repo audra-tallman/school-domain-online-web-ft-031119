@@ -1,30 +1,30 @@
 class School
  attr_accessor :roster
- attr_reader :name
+ attr_reader :school
  
-  def initialize(name) # creates class that can be initialized w/ name
-    @name = name
+  def initialize(school) # creates class that can be initialized w/ name
+    @school = school
   end
     
  ROSTER = [] # creates roster 
  
   def roster=(roster)
     @roster = roster
-    ROSTER << ROSTER["grade"] << "name"
-    puts "#{name}: #{grade}"
+    ROSTER[grade] << "name"
+    puts ROSTER
   end
   
   def add_student(name, grade)
   #adds new student's name to correct grade level roster
   end
     
-  
   def grade(grade)
   #returns students in specific grade level
+  puts name
   end  
   
   def sort 
-  #puts list/hash of students with {grade =>[student name] in alphabetical order
+  puts roster.sort 
   end
   
 end 
